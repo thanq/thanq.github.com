@@ -1,19 +1,18 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
   {\% include header.html %}
 </head>
 <body>
-  <div class="container">
-    <div class="row">
+  <div id="wrapper">
+    <div id="header-wrapper">
+      <header id="header">
+        <h1 id="logo"><a href="/">thanq的扭曲日常</a></h1>
+        <p class="description">...人是可以不断成长的...</p>
+      </header>
+ 
       {\% include navside.html %}
-      <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 aside3">
-        <div id="container">
-          <div id="pjax">
-            {\{ content }}
-          </div>
-        </div>
-      </div>
+
     </div>
   </div>
   {\% include footer.html %}

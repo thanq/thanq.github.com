@@ -1,0 +1,17 @@
+
+
+1 download & run
+    http://www.elasticsearch.org/download/
+
+2 install http://mobz.github.io/elasticsearch-head/ 
+    ${es_path}/plugin -install mobz/elasticsearch-head
+    plugin -i elasticsearch/marvel/latest
+  
+3 test
+    curl -XPUT 'http://localhost:9200/dept/employee/32' -d '{ "empname": "emp32"}'
+    open localhost:9200
+    open localhost:9200/_plugin/marvel/
+    open localhost:9200/_plugin/head/
+    
+
+  

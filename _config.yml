@@ -14,28 +14,20 @@ author:
 title: thanq的日志 
 description: thanq的日志
 url: http://thanq.me
-rss_url: /pages/atom.xml
+#rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
 gavatar: /public/upload/gavatar/gavatar.png
 favicon: /public/upload/gavatar/favicon.ico
 
 # google analytics 设置
-ga:
-  id: 
-  url: thanq.me
 
 # disqus 设置
-disqus:
-  shortname: 
 
 # 主题设置，自动激活某个标签
-active: 技术
+#active: 技术
 
 # 首页除了最新文章外显示分类
-cates: 
-  - Python
-  - OpenStack
 
 # 中文本地化
 locals:

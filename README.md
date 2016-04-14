@@ -1,4 +1,0 @@
-thanq
-=====
-
-thanq's blog
